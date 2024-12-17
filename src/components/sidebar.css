@@ -1,0 +1,61 @@
+.sidebar {
+    width: auto;
+    background: black;
+    backdrop-filter: blur(10px);
+    padding: 0;
+    height: 90vh;
+    transition: width 0.3s !important;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+
+    .item {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        color: white;
+    }
+
+    .MuiButtonBase-root {
+        color: white;
+    }
+}
+
+.sidebar.closed {
+    width: 8vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .MuiList-root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a.MuiListItem-root:nth-child(1) > div:nth-child(1),
+    a.MuiListItem-root:nth-child(2) > div:nth-child(1),
+    a.MuiListItem-root:nth-child(3) > div:nth-child(1) {
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+}
+
+.sidebar.open {
+    width: auto;
+    color: white;
+
+
+}
+
+.menu-button {
+    color: white;
+}
+
+.item .MuiSvgIcon-root {
+    color: white;
+}
