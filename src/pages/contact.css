@@ -1,27 +1,33 @@
 .contact {
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
     img {
-        width: 40vh;
-        height: 60vh;
+        width: 30%;
+        height: 60%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     }
 
-    .icons {
-        svg {
-            width: 8vh;
-            height: 8vh;
-        }
+    .text {
+        display: flex;
+        flex-direction: column;
+        padding: 2vh;
 
-        .wsp {
-            color: green;
-        }
-
-        .fb {
-            color: rgb(0, 85, 255);
+        .icons {
+            svg {
+                width: 8vh;
+                height: 8vh;
+            }
+    
+            .wsp {
+                color: green;
+            }
+    
+            .fb {
+                color: rgb(0, 85, 255);
+            }
         }
     }
 }
