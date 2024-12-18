@@ -2,7 +2,8 @@
   text-align: center;
   padding: 0;
   bottom: 0;
-  background-color: #95deec;
+  /* background-color: #95deec; */
+  background-image: url('img/water.jpg');
   backdrop-filter: blur(10px);
   color: white;
   position: relative;

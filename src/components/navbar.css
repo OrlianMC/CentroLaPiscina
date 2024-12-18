@@ -1,11 +1,12 @@
 .navbar {
-  background-color: #95deec;
+  background-color: white;
+  /* background-image: url('img/water.jpg'); */
   backdrop-filter: blur(10px);
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: auto;
   height: auto;
   min-height: 10vh;
 }

@@ -3,7 +3,8 @@
     background: black;
     backdrop-filter: blur(10px);
     padding: 0;
-    height: 90vh;
+    height: 100%;
+    min-height: 100vh;
     transition: width 0.3s !important;
     overflow: hidden;
     display: flex;
