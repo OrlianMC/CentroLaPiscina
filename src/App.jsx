@@ -25,16 +25,18 @@ function MainApp() {
   return (
     <div className="app">
       <div className="flexProperty">
-          <Sidebar />
+        <Sidebar />
         <div className="appContainer">
-          {/* <Navbar /> */}
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/" element={<Navigate to="/home" replace />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
+            <Navbar />
+          <div className="appContent">
+            <Routes>
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/" element={<Navigate to="/home" replace />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </div>
         </div>
       </div>
       <Footer />

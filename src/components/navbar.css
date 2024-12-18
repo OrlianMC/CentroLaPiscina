@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #95deec;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  min-height: 10vh;
+}

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./navbar.css";
 
 function Navbar() {
   return (
     <div className="navbar">
-      <Link to="/home">Inicio</Link>
-      <Link to="/about">Acerca de</Link>
-      <Link to="/contact">Contacto</Link>
+      <h1 className="navbar-title">Centro Recreativo La Piscina</h1>
     </div>
   );
 }
