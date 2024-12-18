@@ -4,8 +4,8 @@ import "./home.css";
 function Home() {
   return (
     <div>
-      <h1>Bienvenido a la Página de Inicio</h1>
-      <p>Este es el contenido de la página de inicio.</p>
+      <h1>Bienvenido</h1>
+      <p>Aquí va contenido sobre los servicios que se ofrecen, algunas imagenes etc.</p>
     </div>
   );
 }

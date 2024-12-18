@@ -6,6 +6,14 @@
     }
 
     .text {
-        
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 3vh;
+    }
+
+    .icon {
+        width: 10px;
+        height: 10px;
+        display: flex;
+        justify-content: space-around;
     }
 }

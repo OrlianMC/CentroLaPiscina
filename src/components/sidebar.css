@@ -26,6 +26,7 @@
 
 .sidebar.closed {
     width: 8vh;
+    height: auto;
     color: white;
     display: flex;
     align-items: center;
@@ -49,8 +50,7 @@
 .sidebar.open {
     width: auto;
     color: white;
-
-
+    height: auto;
 }
 
 .menu-button {

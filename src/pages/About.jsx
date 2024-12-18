@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='about'>
       <img src="img/swiming.jpg"/>
-      <div className="texto">
+      <div className="text">
       <h1>Proyecto "La Piscina"</h1>
       <p>
         El proyecto "La Piscina" en el encantador poblado de Alacranes representa un renacer lleno de esperanza y esfuerzo colectivo.

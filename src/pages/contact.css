@@ -1,0 +1,27 @@
+.contact {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        width: 40vh;
+        height: 60vh;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .icons {
+        svg {
+            width: 8vh;
+            height: 8vh;
+        }
+
+        .wsp {
+            color: green;
+        }
+
+        .fb {
+            color: rgb(0, 85, 255);
+        }
+    }
+}
